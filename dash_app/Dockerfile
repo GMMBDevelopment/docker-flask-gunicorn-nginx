@@ -7,3 +7,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . /home/project/dash_app
 
+RUN python /home/project/dash_app/app.py
